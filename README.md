@@ -1,4 +1,4 @@
-# X25519 2020 Crypto suite Repository _(x25519-key-agreement-2020-context)_
+# X25519 2020 Crypto Suite Context Repository _(x25519-key-agreement-2020-context)_
 
 <!-- [![NPM Version](https://img.shields.io/npm/v/x25519-key-agreement-2020-context.svg?style=flat-square)](https://npm.im/x25519-key-agreement-2020-context) -->
 
@@ -16,7 +16,8 @@
 
 See also (related specs):
 
-*
+* [Ed25519 Signature 2020 Suite Draft Spec](https://w3c-ccg.github.io/lds-ed25519-2020/)
+* [Multibase](https://github.com/multiformats/multibase) (for `proofValue` and `publicKeyMultibase` encoding)
 
 ## Install
 
@@ -43,6 +44,10 @@ const obj = {
   ],
   // ...
 };
+
+// Codec term map value for CBOR-LD
+constants.CBORLD_CODEC_VALUE
+// 0x17
 
 // get context data for a specific context
 const data = contexts.get('https://w3id.org/security/suites/x25519-2020/v1');
