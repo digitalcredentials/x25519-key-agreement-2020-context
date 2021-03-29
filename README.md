@@ -1,8 +1,8 @@
-# Context Template Repository _(context-template)_
+# X25519 2020 Crypto suite Repository _(x25519-key-agreement-2020-context)_
 
-<!-- [![NPM Version](https://img.shields.io/npm/v/context-template.svg?style=flat-square)](https://npm.im/context-template) -->
+<!-- [![NPM Version](https://img.shields.io/npm/v/x25519-key-agreement-2020-context.svg?style=flat-square)](https://npm.im/x25519-key-agreement-2020-context) -->
 
-> A GitHub template repository for JSON-LD contexts.
+> JSON-LD Context for the X25519 2020 Crypto suite.
 
 ## Table of Contents
 
@@ -20,12 +20,12 @@ See also (related specs):
 
 ## Install
 
-Requires Node.js 10+
+Requires Node.js 12+
 
 To install via NPM:
 
 ```
-npm install context-template
+npm install x25519-key-agreement-2020-context
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ npm install context-template
 ```js
 const {
   contexts, constants, appContextMap, documentLoader
-} = require('context-template');
+} = require('x25519-key-agreement-2020-context');
 
 // use URL in a JSON-LD context
 const obj = {
@@ -45,7 +45,7 @@ const obj = {
 };
 
 // get context data for a specific context
-const data = contexts.get('https://w3id.org/example/v1');
+const data = contexts.get('https://w3id.org/security/suites/x25519-2020/v1');
 // ...
 ```
 

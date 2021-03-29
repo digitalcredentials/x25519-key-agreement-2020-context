@@ -3,7 +3,7 @@
  */
 'use strict';
 
-const context = require('../contexts/example-v1.json');
+const context = require('../contexts/x25519-key-agreement-2020-v1.json');
 const constants = require('./constants');
 const {documentLoader} = require('./documentLoader');
 const {CONTEXT_URL, CBORLD_VALUE} = constants;

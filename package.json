@@ -1,7 +1,7 @@
 {
-  "name": "context-template",
+  "name": "x25519-key-agreement-2020-context",
   "version": "0.0.1",
-  "description": "Context template repository.",
+  "description": "JSON-LD Context for the X25519 2020 Crypto suite.",
   "main": "js",
   "module": "./dist/context.esm.js",
   "files": [
@@ -12,17 +12,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/context-template"
+    "url": "https://github.com/digitalbazaar/x25519-key-agreement-2020-context"
   },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/context-template/issues"
+    "url": "https://github.com/digitalbazaar/x25519-key-agreement-2020-context/issues"
   },
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
     "url": "https://digitalbazaar.com/"
   },
-  "homepage": "https://github.com/digitalbazaar/context-template#readme",
+  "homepage": "https://github.com/digitalbazaar/x25519-key-agreement-2020-context#readme",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "@babel/core": "^7.11.0",
@@ -33,7 +33,6 @@
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
     "cross-env": "^7.0.2",
-    "dirty-chai": "^2.0.1",
     "eslint": "^7.8.1",
     "eslint-config-digitalbazaar": "^2.5.0",
     "json-loader": "^0.5.7",
