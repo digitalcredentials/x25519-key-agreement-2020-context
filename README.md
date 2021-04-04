@@ -16,7 +16,6 @@
 
 See also (related specs):
 
-* [Ed25519 Signature 2020 Suite Draft Spec](https://w3c-ccg.github.io/lds-ed25519-2020/)
 * [Multibase](https://github.com/multiformats/multibase) (for `proofValue` and `publicKeyMultibase` encoding)
 
 ## Install
